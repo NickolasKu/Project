@@ -1,3 +1,12 @@
 git init - инициализация
-git add - добавление файлов в гит
+git add - добавление файлов в гит (git add *) - добавить всё
 git status - покажет статус и скажет что делать
+git config --global user.name "Name" - подпись для идентификации себя
+git config --global user.email "e@m.l" -  - подпись для идентификации себя
+git commit -m "new:create somethink" - описание своих изменений
+git config --list - проверка всех данных пользователя
+
+https://git-scm.com/book/ru - книга по гит
+
+git log - просмотр изменений
+git checkout 'SHA - вернуться к какомуто коммиту(sha)
