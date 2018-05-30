@@ -10,3 +10,8 @@ https://git-scm.com/book/ru - книга по гит
 
 git log - просмотр изменений
 git checkout 'SHA - вернуться к какомуто коммиту(sha)
+git checkout master - вернет к мастеру
+git remote add origin https://github.com/user/project.git - добавляем удаленный репозиторий
+git fetch origin - скопируем состояние удаленного репозитория
+git rebase origin/master - объединение локального и удаленного репозитория (не очень хорошая команда)
+git push origin master - запись в удаленный репозиторий
